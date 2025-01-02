@@ -1,0 +1,22 @@
+@include breakpoint(desktop){
+
+    .decoration-one{
+        border: 100px solid $color-gray;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 50px;
+        position: absolute;
+        top: 193px;
+        right: -84px;
+    }
+
+    .decoration-two{
+        border: 100px solid $color-gray;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 50px;
+        position: absolute;
+        top:278px;
+        left: -232px;
+    }
+}

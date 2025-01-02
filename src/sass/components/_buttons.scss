@@ -1,0 +1,69 @@
+.button-gray{
+    border: none;
+    padding: 11px 12px;
+    border-radius: 8px;
+    background-color: $color-button-gray;
+
+    @include breakpoint(tablet){
+        padding:16px 26px ;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: $color-blue;
+        font-family: $typography-barlow;
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+}
+
+.button-gray:hover{
+    background-color: $color-blue;
+    
+    a{
+        color: $color-white;
+    }
+}
+
+.button-orange{
+    border: none;
+    padding: 11px 12px;
+    border-radius: 8px;
+    background-color: $color-orange;
+
+    @include breakpoint(tablet){
+        padding:16px 26px ;
+    }
+
+
+
+    a{
+        text-decoration: none;
+        color: $color-white;
+        font-family: $typography-barlow;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+.button-orange:hover{
+    background-color: $color-orange-hover;
+    transition: 3ms;
+}
+
+.button-transparent{
+    border: none;
+    padding: 11px 12px;
+    border-radius: 8px;
+    background-color: transparent;
+
+    a{
+        text-decoration: none;
+        color: $color-text;
+        font-family: $typography-barlow;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
